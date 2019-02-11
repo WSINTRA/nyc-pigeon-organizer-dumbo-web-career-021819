@@ -73,7 +73,7 @@ puts "#{colour} with #{names}"
     new_bird_hash.keys.each do |s|
       if x == s
       puts "#{colour} and #{x}"
-      new_bird_hash[x][:color] << color
+      new_bird_hash[x][:color] << colour
       end
     end
 
