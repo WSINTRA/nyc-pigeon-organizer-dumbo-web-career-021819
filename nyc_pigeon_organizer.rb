@@ -67,8 +67,8 @@ new_bird_hash.each do |x,y|
     y[:gender] = []
     y[:lives] = []
 end
-data.each do |gender,names|
-  puts "#{gender}FILL #{names}"
+data[:color].each do |colour,names|
+  puts "#{colour}FILL #{names}"
 end
 
 
