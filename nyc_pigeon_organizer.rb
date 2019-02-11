@@ -77,10 +77,29 @@ puts "#{colour} with #{names}"
       end
     end
    end
-
 end
-puts "#{new_bird_hash}"
-
+data[:gender].each do |colour,names|
+puts "#{colour} with #{names}"
+  names.each do |x|
+    new_bird_hash.keys.each do |s|
+      if x == s
+      puts "#{colour} and #{x}"
+      new_bird_hash[x][:color] << colour.to_s
+      end
+    end
+   end
+end
+data[:lives].each do |colour,names|
+puts "#{colour} with #{names}"
+  names.each do |x|
+    new_bird_hash.keys.each do |s|
+      if x == s
+      puts "#{colour} and #{x}"
+      new_bird_hash[x][:color] << colour.to_s
+      end
+    end
+   end
+end
 
 
 
