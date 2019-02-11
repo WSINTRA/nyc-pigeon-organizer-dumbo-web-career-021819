@@ -68,33 +68,33 @@ new_bird_hash.each do |x,y|
     y[:lives] = []
 end
 data[:color].each do |colour,names|
-puts "#{colour} with #{names}"
+#puts "#{colour} with #{names}"
   names.each do |x|
     new_bird_hash.keys.each do |s|
       if x == s
-      puts "#{colour} and #{x}"
+    #  puts "#{colour} and #{x}"
       new_bird_hash[x][:color] << colour.to_s
       end
     end
    end
 end
 data[:gender].each do |gender,names|
-puts "#{gender} with #{names}"
+#puts "#{gender} with #{names}"
   names.each do |x|
     new_bird_hash.keys.each do |s|
       if x == s
-      puts "#{gender} and #{x}"
+    #  puts "#{gender} and #{x}"
       new_bird_hash[x][:gender] << gender.to_s
       end
     end
    end
 end
 data[:lives].each do |lives,names|
-puts "#{lives} with #{names}"
+#puts "#{lives} with #{names}"
   names.each do |x|
     new_bird_hash.keys.each do |s|
       if x == s
-      puts "#{lives} and #{x}"
+    #  puts "#{lives} and #{x}"
       new_bird_hash[x][:lives] << lives.to_s
       end
     end
