@@ -73,13 +73,13 @@ puts "#{colour} and #{names}"
     new_bird_hash.keys.each do |s|
       if x == s
       puts "here"
-    end
+      end
     end
 
 #puts "#{new_bird_hash.keys}"
+   end
 end
-end
-end
+
 
 
 
