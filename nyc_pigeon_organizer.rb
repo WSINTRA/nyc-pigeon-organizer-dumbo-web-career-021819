@@ -76,9 +76,8 @@ puts "#{colour} with #{names}"
       new_bird_hash[x][:color] << colour.to_s
       end
     end
-
-puts "#{new_bird_hash}"
    end
+   puts "#{new_bird_hash}"
 end
 
 
