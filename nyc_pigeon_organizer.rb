@@ -71,6 +71,7 @@ data[:color].each do |colour,names|
 puts "#{colour} and #{names}"
   names.each do |x|
     if x == new_bird_hash.keys
+      puts "here"
 #puts "#{new_bird_hash.keys}"
 end
 end
