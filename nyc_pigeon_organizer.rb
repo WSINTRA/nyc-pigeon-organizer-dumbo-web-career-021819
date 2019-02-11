@@ -69,11 +69,12 @@ new_bird_hash.each do |x,y|
 end
 data[:color].each do |colour,names|
 puts "#{colour} and #{names}"
-#  names.each do |x|
-  #  if x == new_bird_hash
-puts "#{new_bird_hash.keys}"
+  names.each do |x|
+    if x == new_bird_hash.keys
+#puts "#{new_bird_hash.keys}"
 end
-
+end
+end
 
 
 
