@@ -100,8 +100,8 @@ data[:lives].each do |lives,names|
     end
    end
 end
-puts "#{new_bird_hash}"
+new_bird_hash
 
 
 end
-nyc_pigeon_organizer(pigeon_data)
+
