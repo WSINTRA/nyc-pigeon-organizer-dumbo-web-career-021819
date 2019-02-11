@@ -77,7 +77,7 @@ puts "#{colour} with #{names}"
       end
     end
 
-#puts "#{new_bird_hash.keys}"
+puts "#{new_bird_hash}"
    end
 end
 
