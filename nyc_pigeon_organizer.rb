@@ -70,8 +70,12 @@ end
 data[:color].each do |colour,names|
 puts "#{colour} and #{names}"
   names.each do |x|
-    if x == new_bird_hash.keys
+    new_bird_hash.keys.each do |s|
+      if x == s
       puts "here"
+    end
+    end
+
 #puts "#{new_bird_hash.keys}"
 end
 end
