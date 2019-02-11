@@ -68,8 +68,9 @@ new_bird_hash.each do |x,y|
     y[:lives] = []
 end
 data[:color].each do |colour,names|
+puts "#{colour} and #{names}"
   names.each do |x|
-    puts "#{x}"
+    if x == new_bird_hash
 end
 end
 
